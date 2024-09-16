@@ -1,18 +1,18 @@
 # vue3-example-project
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+Vue 3 tutorial project with differences in Composition API, Options API and Class API.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Vue 3 Overview
 
-## Type Support for `.vue` Imports in TS
+Vue 3 consists of Single file components. An SFC is a reusable self-contained block of code that encapsulates HTML, CSS and JavaScript that belong together, written inside a .vue file.
+The core feature of Vue 3 is declarative rendering. Vue 3 uses a template syntax that allows you to declaratively render data to the DOM. This means that you can write your templates in a way that describes the structure of the DOM and Vue will take care of updating the DOM when the data changes.:
+When the state changes the html will be updated automatically.
+State can trigger updates in the DOM, when changes are considered reactive.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- mustache syntax: {{}} only for text interpolation
+- v-bind: for attribute binding
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
